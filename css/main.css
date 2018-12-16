@@ -1,0 +1,201 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  color: #ffffff;
+}
+
+#portfolio {
+  height: 1300px;
+}
+
+#contact {
+  height: 400px;
+}
+
+#about {
+  height: 595px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 653px;
+    background: url('../img/hero-mountain.png');
+    background-size: cover;
+}
+header h1 {
+    font-family: 'Unna', serif;
+    clear: both;
+    font-size: 85px;
+    line-height: 80px;
+    color: #ffffff;
+    padding: 215px 5px 0 5px;
+}
+header h1 span {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 48px;
+}
+header h2 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 25px;
+    color: #ffffff;
+    padding: 35px 5px 20px 0;
+}
+nav {
+    float: right;
+    padding: 53px 5px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 25px;
+}
+/***** ABOUT *****/
+
+#about {
+  background: url('../img/about-me.png');
+  background-size: cover;
+}
+#about .full-width {
+  padding: 3px 0 10px 0;
+}
+#about .half-width {
+  padding: 5px 0;
+}
+#about h2 {
+  font-family: 'Unna', serif;
+  font-size: 36px;
+  color: #000000;
+  text-align: center;
+  padding: 0 0 3px 0;
+  clear: both;
+}
+#about p {
+  font-size: 20px;
+  color: #000000;
+  line-height: 23px;
+  padding-left: 0px;
+  padding-right: 25px;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio {
+    background-color: #071b33;
+}
+#portfolio .full-width {
+  overflow: auto
+}
+#portfolio .left-half {
+  padding: 25px 10px 15px 10px;
+  text-align: left;
+  clear: left;
+  margin: 15px;
+}
+#portfolio .right-half {
+  padding: 25px 10px 15px 10px;
+  text-align: right;
+  clear: right;
+  margin: 15px;
+}
+#portfolio h2 {
+  font-family: 'Unna', serif;
+  font-size: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+#portfolio h3 {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-size: 25px;
+  line-height: 1px;
+  font-weight: 700;
+  padding: 3px 3px 0 3px;
+  color: #ffffff;
+}
+#portfolio h4 {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1px;
+  padding: 0 3px 3px 3px;
+  color: #ffffff;
+}
+#portfolio p {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 200;
+  padding: 3px 3px 3px 3px;
+  color: #ffffff;
+}
+#portfolio .img {
+  padding: 3px 0 3px 3px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+  background-color: #b4b3ae;
+}
+#contact h2 {
+  font-family: 'Unna', serif;
+  font-size: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+#contact h3 {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+#contact h4 {
+  font-family: 'Encode Sans Semi Condensed', sans-serif;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  text-align: center;
+  clear: both;
+  font-size: 12px;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+#contact p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 27px;
+  text-decoration: none;
+}
+#contact .full-width {
+  padding: 3px 0 10px 0;
+}
+#contact .third-width {
+  padding: 25px 0;
+}
+#contact ul li {
+    display: inline-block;
+}
+#contact ul li a {
+    text-transform: lowercase;
+    text-decoration: none;
+    padding-left: 43px;
